@@ -1,0 +1,27 @@
+.language-button {
+  font-family: Roboto;
+  border-width: 0;
+  background-color: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.selected {
+  color: #0284c7;
+  border: 2px solid #0284c7;
+  border-radius: 14px;
+}
+.language {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .language {
+    font-size: 12px;
+  }
+  .language-button {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

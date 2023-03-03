@@ -1,0 +1,46 @@
+.repos-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.filter-item-list {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0;
+}
+.popular-heading {
+  font-family: Lobster;
+  font-size: 40px;
+}
+.repos-container {
+  font-family: Roboto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.failure-heading {
+  color: #1e293b;
+  font-family: Bree Serif;
+}
+.failure-container {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-img {
+  width: 30%;
+}
